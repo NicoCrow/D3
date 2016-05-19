@@ -43,11 +43,11 @@ d3.selectAll('div')
 
 __.attr()__ method
 ```html
-&lt;body&gt;
-	&lt;div&gt;Hello&lt;/div&gt;
-	&lt;div&gt;World&lt;/div&gt;
-	&lt;div&gt;!&lt;/div&gt;
-&lt;/body&gt;
+<body>
+	<div>Hello</div>
+	<div>World</div>
+	<div>!</div>
+</body>
 ```
 ```javascript
 d3.selectAll('div')
