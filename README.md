@@ -2,16 +2,19 @@
 
 _library is written by Mike Bostock_
 
-Link to library &lt;script src="http://d3js.org/d3.v3.min.js" charset="utf-8"&gt;&lt;/script&gt;
+Link to library
+```html
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+```
 
-Select the &lt;svg&gt; element and select all of the &lt;circle&gt; elements (assuming they are on the DOM already) and modify their __cx__ attribute.
+Select the __&lt;svg&gt;__ element and select all of the __&lt;circle&gt;__ elements (assuming they are on the DOM already) and modify their __cx__ attribute.
 ```javascript
 d3.select('svg').selectAll('circle')
 	.data([10, 20, 30, 40])
 	.attr('cx', function(d){ return d; });
 ```
 
-Append &lt;h1&gt; element to &lt;body&gt; [__.select()__]
+Append __&lt;h1&gt;__ element to __&lt;body&gt;__ [__.select()__]
 ```javascript
 d3.select('body')
 	.append('h1')
