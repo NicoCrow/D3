@@ -7,3 +7,10 @@ d3.select('svg').selectAll('circle')
 	.data([10, 20, 30, 40])
 	.attr('cx', function(d){ return d; });
 ```
+
+Append &lt;h1&gt; element to &lt;body&gt;
+```javascript
+d3.select('body')
+	.append('h1')
+	.text('Hello, World!')
+```
