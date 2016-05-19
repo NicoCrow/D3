@@ -41,3 +41,16 @@ d3.selectAll('div')
 	});
 ```
 
+__.attr()__ method
+```html
+&lt;body&gt;
+	&lt;div&gt;Hello&lt;/div&gt;
+	&lt;div&gt;World&lt;/div&gt;
+	&lt;div&gt;!&lt;/div&gt;
+&lt;/body&gt;
+```
+```javascript
+d3.selectAll('div')
+	.attr('width', '100%');
+```
+
